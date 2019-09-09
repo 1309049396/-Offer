@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basic" />
+        <module name="netty-consumer" />
+        <module name="netty-rpc" />
+        <module name="user-api" />
+        <module name="user-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="basic" target="8" />
+      <module name="netty-consumer" target="8" />
+      <module name="netty-rpc" target="8" />
+      <module name="user-api" target="8" />
+      <module name="user-core" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

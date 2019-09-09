@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8681dfbb-3811-4e86-a309-6c77bbfa7b5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/NettyRpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/netty-rpc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/annotation/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/annotation/RemoteInvoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/RemoteInvokingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/user/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/DefaultFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/DefaultFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/util/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/TcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/TcpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/ServerHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/ServerHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleClientHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleClientHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleServerHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleServerHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/init/NettyInitial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/init/NettyInitial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/SpringServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/SpringServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/TestTcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/TestTcp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/user/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/ClientRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/ClientRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/DefaultFuture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/DefaultFuture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/NettyClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/NettyClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/TcpClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/TcpClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/TcpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/client/TcpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/constant/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/factory/ZookeeperFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/factory/ZookeeperFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/ServerHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/ServerHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/SimpleClientHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/SimpleClientHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/SimpleServerHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/SimpleServerHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/param/ServerRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/handle/param/ServerRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/init/NettyInitial$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/init/NettyInitial$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/init/NettyInitial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/init/NettyInitial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/BeanMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/BeanMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/InitialMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/InitialMedium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/medium/Media.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/server/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/server/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/server/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/server/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/classes/com/xiehang/server/SpringServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/test-classes/com/xiehang/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-rpc/target/test-classes/com/xiehang/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-rpc/target/test-classes/com/xiehang/TestTcp.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../netty-rpc/target/" />
+    <ignored path="$USER_HOME$/Desktop/NettyRpc-master/target/" />
+    <ignored path="$PROJECT_DIR$/netty-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/user-api/target/" />
+    <ignored path="$PROJECT_DIR$/user-core/target/" />
+    <ignored path="$PROJECT_DIR$/basic/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dis_netty_rpc$NettyServer.ic" NAME="NettyServer Coverage Results" MODIFIED="1567821334646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xiehang.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/dis_netty_rpc$RemoteInvokingTest_testSaveUser.ic" NAME="RemoteInvokingTest.testSaveUser Coverage Results" MODIFIED="1566925772097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xiehang.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="810373945">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="25" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="366" />
+          <entry key="xml" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="25" />
+          <entry key="Git file" value="1" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="366" />
+          <entry key="XML" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="23" />
+          <entry key="java" value="3836" />
+          <entry key="xml" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3836" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="56" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ServerWatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/init/NettyInitial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/ServerHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/xiehang/controller/BasicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ChannelManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../netty-rpc" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/Main.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/annotation/RemoteInvoke.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/user/remote/Remote.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/Media.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/annotation/Remote.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/annotation/RemoteInvoke.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/user/remote/UserRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/proxy/InvokeProxy.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/user/model/Response.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/user/model/User.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/user-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/util/Response.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/ClientRequest.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/model/User.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/model/Response.java" />
+        <option value="$PROJECT_DIR$/user-core/src/main/java/com/xiehang/user/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/user-core/src/main/java/com/xiehang/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user-api/src/main/java/com/xiehang/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/user-core/src/main/java/com/xiehang/user/remote/UserRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/RemoteInvokingTest.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/TestTcp.java" />
+        <option value="$PROJECT_DIR$/user-core/src/main/java/server/SpringServer.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/SpringServer.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/test/java/com/xiehang/RemoteInvokingTest.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/DefaultFuture.java" />
+        <option value="$PROJECT_DIR$/user-core/src/main/java/com/xiehang/server/SpringServer.java" />
+        <option value="$PROJECT_DIR$/basic/pom.xml" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/xiehang/Service/BasicService.java" />
+        <option value="$PROJECT_DIR$/basic/src/main/java/com/xiehang/controller/BasicController.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/param/ClientRequest.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/param/Response.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/FutureManager.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/TcpClient.java" />
+        <option value="$PROJECT_DIR$/user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/ServerHandle.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/zk/ZookeeperFactory.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleServerHandle.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/handler/SimpleClientHandle.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/TcpClient.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ChannelManager.java" />
+        <option value="$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ServerWatcher.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/init/NettyInitial.java" />
+        <option value="$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/NettyServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\coder\Maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\coder\Maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="D:\coder\IDEA-Workspace\netty-rpc" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-rpc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="525" />
+    <option name="width" value="1400" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiehang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiehang" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiehang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiehang" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dis-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567856245011" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15917969" />
+    <property name="project.structure.side.proportion" value="0.36142322" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xiehang.client.core" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xiehang" />
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiehang.client.constant" />
+      <recent name="com.xiehang.client.zk" />
+      <recent name="server" />
+      <recent name="com.xiehang.user.service" />
+      <recent name="com.xiehang.user.remote" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coder\IDEA-Workspace\dis-netty-rpc\user-core\src\main\java\com\xiehang\user" />
+      <recent name="D:\coder\IDEA-Workspace\dis-netty-rpc\user-api\src\main\java\com\xiehang\user\remote" />
+      <recent name="D:\coder\IDEA-Workspace\dis-netty-rpc\netty-consumer\src\main\java\com\xiehang" />
+      <recent name="D:\coder\IDEA-Workspace\dis-netty-rpc\netty-consumer\src\main\java\com\xiehang\client\param" />
+      <recent name="D:\coder\IDEA-Workspace\dis-netty-rpc\netty-consumer\src\main\java\com\xiehang\client\annotation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BasicController">
+    <configuration name="BasicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiehang.controller.BasicController" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiehang.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiehang.server.NettyServer" />
+      <module name="netty-rpc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiehang.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiehang.server.SpringServer" />
+      <module name="user-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiehang.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteInvokingTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiehang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiehang" />
+      <option name="MAIN_CLASS_NAME" value="com.xiehang.RemoteInvokingTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteInvokingTest.testSaveUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="netty-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiehang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiehang" />
+      <option name="MAIN_CLASS_NAME" value="com.xiehang.RemoteInvokingTest" />
+      <option name="METHOD_NAME" value="testSaveUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="dis-netty-rpc" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="dis-netty-rpc" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RemoteInvokingTest.testSaveUser" />
+      <item itemvalue="JUnit.RemoteInvokingTest.testSaveUsers" />
+      <item itemvalue="Application.SpringServer" />
+      <item itemvalue="Application.BasicController" />
+      <item itemvalue="Application.NettyServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasicController" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.SpringServer" />
+        <item itemvalue="JUnit.RemoteInvokingTest.testSaveUser" />
+        <item itemvalue="JUnit.RemoteInvokingTest.testSaveUsers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8681dfbb-3811-4e86-a309-6c77bbfa7b5c" name="Default Changelist" comment="" />
+      <created>1566891672749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566891672749</updated>
+      <workItem from="1566891675031" duration="1869000" />
+      <workItem from="1566893561723" duration="1326000" />
+      <workItem from="1566895511102" duration="17229000" />
+      <workItem from="1566952256513" duration="12523000" />
+      <workItem from="1567036915969" duration="20611000" />
+      <workItem from="1567073742126" duration="1906000" />
+      <workItem from="1567125667118" duration="597000" />
+      <workItem from="1567135780324" duration="5208000" />
+      <workItem from="1567402901066" duration="1864000" />
+      <workItem from="1567466264731" duration="2424000" />
+      <workItem from="1567472500468" duration="2533000" />
+      <workItem from="1567498735254" duration="610000" />
+      <workItem from="1567667344035" duration="9114000" />
+      <workItem from="1567734893171" duration="1367000" />
+      <workItem from="1567815650296" duration="7532000" />
+      <workItem from="1567901469522" duration="1195000" />
+      <workItem from="1568026552265" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RemoteInvokingTest_testSaveUsers - 2019.08.29 at 15h 22m 44s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUsers - 2019.08.29 at 15h 23m 36s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUsers - 2019.08.29 at 15h 24m 38s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUsers - 2019.08.29 at 15h 26m 40s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 35m 04s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 35m 08s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 40m 09s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 42m 20s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 46m 10s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.08.29 at 15h 47m 13s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="88185000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/netty-rpc" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-consumer/src/test/java/com/xiehang/RemoteInvokingTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/Media.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ServerWatcher.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>bean.getClass().getInterfaces()[0].getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.getClass().getMethods()[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.getClass().isAnnotationPresent(Service.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.stereotype.Controller,org.springframework.stereotype.Service</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.getClass().isAnnotationPresent(Controller.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.stereotype.Controller</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.getClass().</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean.getClass().getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bean instanceof Object</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.user.remote.UserRemoteImpl</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ChannelManager.realServerPath.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanMap</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df.get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>methodClassMap.get(method).getName() + &quot;.&quot; + method.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>` `</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((HashMap) Media.beanMap).keySet</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getCommand()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getContent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanMap.keySet()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user-core/src/test/java/com/xiehang/AppTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="58" column="178" selection-start-line="58" selection-start-column="178" selection-end-line="58" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/test/java/com/xiehang/RemoteInvokingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/test/java/com/xiehang/RemoteInvokingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/BeanMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/DefaultFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="99" column="46" lean-forward="true" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/factory/ZookeeperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/user/remote/UserRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/user/remote/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/param/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/DefaultFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleClientHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-core/src/main/java/com/xiehang/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-core/src/main/java/com/xiehang/user/remote/UserRemoteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/channel/ChannelFuture.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/client/TcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="164" column="53" lean-forward="true" selection-start-line="164" selection-start-column="53" selection-end-line="164" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/param/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/SpringServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-core/src/main/java/com/xiehang/server/SpringServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/test/java/com/xiehang/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/xiehang/Service/BasicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/zk/ZookeeperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/handler/SimpleClientHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.4.2/curator-framework-2.4.2.jar!/org/apache/curator/framework/imps/NamespaceWatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/proxy/InvokeProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/TcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="85" column="68" lean-forward="true" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/xiehang/user/remote/UserRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/xiehang/user/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/SimpleServerHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ServerWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/medium/InitialMedium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/init/NettyInitial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/handle/ServerHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../netty-rpc/src/main/java/com/xiehang/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-consumer/src/main/java/com/xiehang/client/core/ChannelManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/src/main/java/com/xiehang/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (netty-consumer)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>basic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35744682" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.38</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36142322" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
